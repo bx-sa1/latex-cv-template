@@ -1,0 +1,92 @@
+skills:
+  - type: Languages 
+    items:
+      - C/C++
+      - Rust
+      - Go
+      - Python
+      - Haskell
+      - Java
+      - HTML
+      - CSS
+      - JS
+  - type: Frameworks
+    items:
+      - React
+      - MATLAB
+      - SciPy
+  - type: Tools
+    items:
+      - Vim
+      - VSCode
+      - Git
+      - Github
+      - Gitlab
+      - "*nix"
+  - type: Others
+    items:
+      - DSP
+      - OpenGL
+      - Godot
+      - SuperCollider
+      - Autonomous Systems
+      - AI/Machine Learning
+      - Networks
+  - type: Soft Skills
+    items:
+      - "Japanese Language - Intermediate"
+      - Team Working
+      - Communication
+
+education:
+  - school: Brunel University
+    location: Uxbridge, London
+    course: BSc in Computer Systems Engineering
+    duration: 2021-2025
+  - school: Dr Challoner's Grammar School
+    location: Amersham, Buckinghamshire
+    course: A-Level in Computer Science, Maths and Physics
+    duration: 2019-2021
+  - school: Dr Challoner's Grammar School
+    location: Amersham, Buckinghamshire
+    course: GCSE
+    duration: 2017-2019
+
+experience:
+  - description: IT Support Intern
+    duration: "July 2023 - October 2023"
+    company: Weston Analytics
+    location: Harrow, London
+    summary:
+      - Manage and supported SaaS and security solutions for companies.
+      - Monitored and maintaned networking infrastructure.
+      - Worked closely with the software engineering to enhance customer satifaction and user experience.
+  - description: Enrollment Officer
+    duration: "July 2022 - October 2023"
+    company: Uxbridge College
+    location: Uxbridge, London
+    summary:
+      - Managed the enrollment of new and recurring students to college courses.
+      - Handled financing of said enrollment.
+  - description: Enginerring Work Experience
+    duration: "June 2019 - September 2019"
+    company: Skanska
+    location: Denham, Buckinghamshire
+    summary:
+      - Participated in projects with senior engineers to update system documentation.
+      - Assisted in the design of a bridge, enhancing efficiency and longevity.
+  - description: Tutor
+    duration: "July 2018 - September 2018"
+    company: Ad Astra
+    location: Uxbridge, London
+    summary:
+      - Tutored KS1 studnets in matehmatics, contributing to a 50\% increase in the grade average.
+
+projects:
+  - description: Game Engine(s)
+    skills: C, C++, Rust Java, OpenGL, Mathematics
+    duration: 2017 - 2021
+    summary:
+      - Designed and created multiple 2D and 3D game engines, in order to learn about how they work under the hood.
+      - Required learning about lighting algorithms, physics equations, optimisations techniques for a large ammount of entities, etc.
+      - Successfully applied that knowledge to my A-Level Computer Science course, allowing me to achieve an A.

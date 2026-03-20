@@ -37,30 +37,23 @@
 }
 
 \newcommand{\cvInfo}[1]{\item \small{#1}}
-\newcommand{\cvBeginItemize}{\begin{itemize}\setlength\itemsep{-0.5em}}
-\newcommand{\cvEndItemize}{\end{itemize}\vspace{-2em}}
+\newcommand{\cvBeginItemize}{\begin{itemize}\setlength\itemsep{-4pt}}
+\newcommand{\cvEndItemize}{\end{itemize}\vspace{-4pt}}
 \newenvironment{cvHeading}%
-{\noindent\ignorespaces}%
-{\vspace{-0.5em}\ignorespacesafterend}
+{\noindent\ignorespaces\vspace{-2pt}}%
+{\ignorespacesafterend\vspace{-2pt}}
 
 \newcommand{\cvSkill}[2]{\item \textbf{#1}{: #2}}
 \newenvironment{cvSkills}%
 {\cvBeginItemize}%
 {\cvEndItemize}
 
-\newenvironment{cvExperience}[4]{%
+\newenvironment{cvList}[4]{%
     \begin{cvHeading}
-        \textbf{#1} \hfill #2 \\%
-        \textit{\small#3} \hfill \textit{\small #4} %
+        \textbf{#1} \hfill #2\\%
+        \textit{\small#3} \hfill \textit{\small #4}%
     \end{cvHeading} %
-    \cvBeginItemize{}
-}{\cvEndItemize}
-
-\newenvironment{cvProject}[3]{%
-    \begin{cvHeading}
-        \textbf{#1} $\vert$ {\small\emph{#2}} \hfill #3 %
-    \end{cvHeading}
-    \cvBeginItemize{}
+    \cvBeginItemize
 }{\cvEndItemize}
 
 \makeatother
